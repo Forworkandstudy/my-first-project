@@ -1,0 +1,211 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #332f2c;
+    color: #fff;
+}
+
+.container {
+    max-width: max;
+    margin: auto;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+ .slogan {
+            background-image: linear-gradient(rgba(84, 84, 84, 0.4), rgba(84, 84, 84, 0.2)), url('https://steamuserimages-a.akamaihd.net/ugc/943967042662307663/533BB01797E546D69D3202F6A12CB54F70E110E3/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true') ;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 250px 0;
+            font-size: 46px;
+        }
+.logo {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .75);
+    padding: 30px 15px;
+    transition: all .3s ease-in-out;
+}
+
+.menu li a:hover {
+    background-color: rgba(200, 200, 200, .25);
+    color: rgb(250, 250, 250);
+}
+
+.content {
+    padding-top: 90px;
+}
+
+.home,
+.about,
+.events,
+.training,
+.news {
+    min-height: 400px;
+}
+
+.gallery {
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: calc(100% + 40px); /* Для компенсации отступов контейнера */
+    padding-bottom: 10px;
+}
+
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.85;
+    transform: scale(0.95);
+    transition: transform 0.3s, opacity 0.3s;
+    display: inline-block;
+    margin-right: 15px; /* Пространство между изображениями */
+}
+
+.gallery img:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+.tournaments-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.column {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    background-color: #756a6a;
+    border-radius: 5px;
+}
+
+.column h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.column ul {
+    list-style-type: square;
+    padding: 0 20px;
+}
+
+.column li {
+    padding: 5px 0;
+}
+.training table {
+    font-family: arial, sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.training td, .training th {
+    text-align: left;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.training th {
+    color: white;
+    background-color: #555;
+}
+ .news-container {
+            max-width: 800px;
+            margin: auto;
+            
+        }
+.news-container h1{
+      font-size: 36px;
+}
+        .news-item {
+            background-color: #403939;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+            border-radius: 5px;
+        }
+
+        .news-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .news-date {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .news-text {
+            line-height: 1.5;
+        }
+
+        .contact-info {
+            background-image: linear-gradient(rgba(84, 84, 84, 0.4), rgba(84, 84, 84, 0.2)), url('https://i.pinimg.com/originals/26/64/ea/2664ea6aeec1646c7d1296df52e9e126.jpg') ;
+            color: #fff;
+            padding: 40px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-info h2 {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        .contact-details {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+        }
+      
+.footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+}
+.call {
+  width: 50px;
+  height: auto;
+}
